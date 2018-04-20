@@ -4,6 +4,37 @@
   border-radius: 100px;
 }
 
+  @font-face {
+    font-family: 'Museo700Regular';
+    src: url('Museo700-Regular-webfont.eot');
+    src: url('Museo700-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Museo700-Regular-webfont.woff') format('woff'),
+         url('Museo700-Regular-webfont.ttf') format('truetype'),
+         url('Museo700-Regular-webfont.svg#Museo100Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+  }
+
+h1 {
+font-family: 'Museo700Regular';
+font-weight: bold;
+font-size: 36px;
+margin-left: -22px;
+margin-top: 10px;
+}
+
+.logo {
+  margin-top: 7px;
+}
+
+#fadeContainer {
+    position: relative;
+}
+#fadeContainer img {
+    position: absolute;
+}
+
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .section {
@@ -25,8 +56,10 @@
   max-width: 80%;
   margin: 3rem auto -12rem;
 }
-.phone + .phone {
-  display: none;
+
+h4 {
+  text-align: center;
+  width: 100%;
 }
 
 /* Values
@@ -83,14 +116,6 @@
     max-height: 362px;
     z-index: 3;
   }
-  .phone + .phone {
-    top: -6rem;
-    display: block;
-    max-width: 73.8%;
-    right: 0;
-    z-index: 2;
-    max-height: 338px;
-  }
   .hero-heading {
     font-size: 2.4rem;
   }
@@ -120,10 +145,6 @@
     right: 5rem;
     max-height: 510px;
   }
-  .phone + .phone {
-    top: -12rem;
-    max-height: 472px;
-  }
   .categories {
     padding: 15rem 0 8rem;
   }
@@ -135,17 +156,13 @@
     padding: 20rem 0 19rem;
   }
   .hero {
-    padding: 22rem 0;
+    padding: 1rem 0 30rem;
   }
   .hero-heading {
     font-size: 3.0rem;
   }
   .phone {
-    top: -16rem;
-    max-height: 615px;
-  }
-  .phone + .phone {
-    top: -14rem;
-    max-height: 570px;
+    max-height: 800px;
+    top: -2rem;
   }
 }
