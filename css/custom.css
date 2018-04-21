@@ -24,6 +24,11 @@ margin-left: -22px;
 margin-top: 10px;
 }
 
+h4 {
+  margin-bottom: 0 !important;
+  margin-top: 20px;
+}
+
 .logo {
   margin-top: 7px;
 }
@@ -34,6 +39,64 @@ margin-top: 10px;
 #fadeContainer img {
     position: absolute;
 }
+
+.desc {
+  font-size: 20px;
+  text-align: left;
+  color: #fff;
+}
+
+.date {
+  font-size: 20px;
+  text-align: right;
+  color: #c3c3c3;
+}
+
+.curve {
+  background-color: #fff;
+  border-bottom-left-radius: 100% 300px;
+  border-bottom-right-radius: 100% 300px;
+  margin-top: -200px;
+  margin-bottom: 200px;
+}
+
+.bottom {
+  background-color: #000;
+  border-top-left-radius: 100% 100px;
+  border-top-right-radius: 100% 100px;
+  margin-top: -60px;
+}
+
+.progress {
+  padding: 15px;
+  background-color: #33ccff;
+  margin: -235px auto 100px auto;
+  width: 300px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 1% 10px;
+  border: 4px solid #fff;
+  opacity: .95
+}
+
+mark {
+  padding: 5px 5px;
+  font-size: 12px;
+}
+
+.todo {
+  text-align: left;
+}
+
+.todo li {
+  color: #c3c3c3;
+  font-size: 16px;
+}
+
+.todo.active li {
+  color: #99ff99;
+}
+
 
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -76,6 +139,8 @@ h4 {
 }
 .value-heading {
   margin-bottom: .3rem;
+  text-shadow: 1px 1px 2px black; 
+  font-size: 16px;
 }
 .value-description {
   opacity: .8;
@@ -156,7 +221,7 @@ h4 {
     padding: 20rem 0 19rem;
   }
   .hero {
-    padding: 1rem 0 30rem;
+    padding: 1rem 0 28rem;
   }
   .hero-heading {
     font-size: 3.0rem;
